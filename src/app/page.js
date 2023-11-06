@@ -23,17 +23,17 @@ export default function Home() {
                                         </article>
                                     </div>
                                 </article>
-                                <h4 className="oldPrice">R$ 13.000,00</h4>
+                                <h4 className="oldPrice">R$ 1.300,00</h4>
                                 <h2 className="newPrice">R$ 670,00</h2>
                             </section>
                         </div>
                     </article>
-                    <div className="celular">
+                    <div className="item">
                         <img className="purple" src='/purple-ribbon.png' alt="" />
                         <div className={oswald.className}>
                             <h1 className="productName">Zoro Action Figure</h1>
                         </div>
-                        <img className="iphone" src='/zoroActionFig.png' alt="" />
+                        <img className="produto" src='/zoroActionFig.png' alt="" />
                     </div>
                 </section>
 
@@ -56,12 +56,12 @@ export default function Home() {
                             </section>
                         </div>
                     </article>
-                    <div className="celular">
+                    <div className="item">
                         <img className="purple" src='/purple-ribbon.png' alt="" />
                         <div className={oswald.className}>
                             <h1 className="productName">Plushie Naruto</h1>
                         </div>
-                        <img className="iphone" src='/plushieNaruto.png' alt="" />
+                        <img className="produto" src='/plushieNaruto.png' alt="" />
                     </div>
                 </section>
             </section>

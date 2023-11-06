@@ -15,5 +15,6 @@ export default function Menu(){
             <Link href='/DC' >DC Comics</Link>
             <Link href='/Produtos'>Produtos</Link>
         </nav>
+        
     )
 }

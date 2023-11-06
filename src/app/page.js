@@ -1,95 +1,56 @@
-import Image from 'next/image'
-import styles from './page.module.css'
+import './Home.scss'
+import Link from 'next/link'
 
 export default function Home() {
-  return (
-    <main className={styles.main}>
-      <div className={styles.description}>
-        <p>
-          Get started by editing&nbsp;
-          <code className={styles.code}>src/app/page.js</code>
-        </p>
-        <div>
-          <a
-            href="https://vercel.com?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            By{' '}
-            <Image
-              src="/vercel.svg"
-              alt="Vercel Logo"
-              className={styles.vercelLogo}
-              width={100}
-              height={24}
-              priority
-            />
-          </a>
-        </div>
-      </div>
+    return (
+        <main id='mainHome'>
+            <section className="anuncios">
+                <Link className='link' href="/produtos/4">
+                    <section className="anuncioh">
+                        <article className="promocao">
+                            <section className="box">
+                                <article className="desconto">
+                                    <h1 className="numero">30</h1>
+                                    <article className="simbols">
+                                        <p className="simbol">%</p>
+                                        <p className="simbol">OFF</p>
+                                    </article>
+                                </article>
+                                <h4 className="oldPrice">R$ 12.500,00</h4>
+                                <h2 className="newPrice">R$ 9.000,00</h2>
+                            </section>
+                        </article>
+                        <div className="celular">
+                            <img className="purple" src='/purple-ribbon.png' alt="" />
+                            <h1 className="productName">Iphone 14 PRO MAX</h1>
+                            <img className="iphone" src='/iphone14promax.png' alt="" />
+                        </div>
+                    </section>
+                </Link>
 
-      <div className={styles.center}>
-        <Image
-          className={styles.logo}
-          src="/next.svg"
-          alt="Next.js Logo"
-          width={180}
-          height={37}
-          priority
-        />
-      </div>
-
-      <div className={styles.grid}>
-        <a
-          href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className={styles.card}
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2>
-            Docs <span>-&gt;</span>
-          </h2>
-          <p>Find in-depth information about Next.js features and API.</p>
-        </a>
-
-        <a
-          href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className={styles.card}
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2>
-            Learn <span>-&gt;</span>
-          </h2>
-          <p>Learn about Next.js in an interactive course with&nbsp;quizzes!</p>
-        </a>
-
-        <a
-          href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className={styles.card}
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2>
-            Templates <span>-&gt;</span>
-          </h2>
-          <p>Explore the Next.js 13 playground.</p>
-        </a>
-
-        <a
-          href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className={styles.card}
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2>
-            Deploy <span>-&gt;</span>
-          </h2>
-          <p>
-            Instantly deploy your Next.js site to a shareable URL with Vercel.
-          </p>
-        </a>
-      </div>
-    </main>
-  )
+                <Link className='link' href="/produtos/5">
+                    <section className="anuncioh">
+                        <article className="promocao">
+                            <section className="box">
+                                <article className="desconto">
+                                    <h1 className="numero">25</h1>
+                                    <article className="simbols">
+                                        <p className="simbol">%</p>
+                                        <p className="simbol">OFF</p>
+                                    </article>
+                                </article>
+                                <h4 className="oldPrice">R$ 1600,00</h4>
+                                <h2 className="newPrice">R$ 1200,00</h2>
+                            </section>
+                        </article>
+                        <div className="celular">
+                            <img className="purple" src='/purple-ribbon.png' alt="" />
+                            <h1 className="productName">Airpods PRO</h1>
+                            <img className="iphone" src='/airpod.png' alt="" />
+                        </div>
+                    </section>
+                </Link>
+            </section>
+        </main>
+    );
 }

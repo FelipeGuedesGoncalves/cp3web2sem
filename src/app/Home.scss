@@ -1,0 +1,137 @@
+#mainHome{
+    height: 700px;
+}
+
+.anuncios{
+    width: 50vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.anuncioh{
+    height: fit-content;
+    width: fit-content;
+    display: flex;
+    flex-direction: row;
+    font-family: 'Oswald', sans-serif;
+    margin: 30px;
+    border-radius: 30px;
+    transition: all 0.3s ease;
+    box-shadow: 0px 0px 10px transparent;
+    
+    
+}
+.anuncioh:hover{
+    transform: perspective(900px) translateY(-5%) rotateX(20deg) translateZ(0);
+    box-shadow: 0px 0px 30px black;
+}
+
+.promocao{
+    width: 280px;
+    height: 320px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(41, 41, 41);
+    color: rgb(255, 230, 0);
+    box-shadow: inset 50px 50px 70px rgb(0, 0, 0);
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+}
+
+.box{
+    box-shadow: inset -50px -50px 70px rgb(54, 54, 54);
+    background-color: none;
+    width: 280px;
+    height: 320px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+}
+
+.desconto{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.simbols{
+    display: flex;
+    flex-direction: column;
+    font-family: 'Oswald', sans-serif;
+    font-size: 50px;
+    font-weight: 300;
+    justify-content: end;
+    height: 80px;
+}
+
+.simbol{
+    padding: 0;
+    height: 48px;
+}
+
+.numero{
+    font-family: 'Oswald', sans-serif;
+    font-size: 130px;
+    font-weight: 700;
+    letter-spacing: -4px;
+    margin: 0;
+    padding-right: 5px;
+    height: fit-content;
+}
+
+.oldPrice{
+    letter-spacing: -1px;
+    text-decoration: 2px line-through;
+    height: fit-content;
+    margin: -10px;
+    margin-top: -25px;
+}
+
+.newPrice{
+    font-size: 50px;
+    letter-spacing: -4px
+}
+
+/* celular */
+
+.celular{
+    width: 240px;
+    height: 320px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: end;
+    background-color: rgb(255, 230, 0);
+    box-shadow: inset 0px -50px 30px rgb(255, 174, 0);
+
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+}
+
+.purple{
+    height: 70px;
+    top: 100px;
+    margin-bottom: 5px;
+    margin-left: 15px;
+}
+
+.iphone{
+    width: 230px;
+    height: fit-content;
+    margin-left: 00px;
+    margin-bottom: 20px;
+}
+
+.productName{
+    color: rgb(0, 0, 0);
+    font-size: 24px;
+}
+
+.link{
+    text-decoration: none;
+}

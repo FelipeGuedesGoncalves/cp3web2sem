@@ -1,0 +1,61 @@
+ul{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+li{
+    list-style: none;
+}
+
+.detAnun1{
+    display: flex;
+    width: 25vw;
+    height: 40vh;
+    align-items: center;
+    border: 1px solid rgb(107, 107, 107);
+    margin: 50px;
+    flex-direction: column;
+}
+
+.moldura1{
+    height: 60%;
+    width: 100%;
+    background-color: rgb(255, 230, 0);
+    box-shadow: inset 0px -50px 50px rgb(255, 174, 0);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.imgAnuncio1{
+    width: 60%;
+    max-height: 90%;
+}
+
+.dadosProduto1{
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    height: 40%;
+    font-size: 1vw;
+    color: white;
+    align-items: center;
+    justify-content: center;
+}
+
+.nomeProduto1{
+    font-size: 2.5em;
+    font-family: 'League Spartan', sans-serif;
+    margin-bottom: 0.4em;
+    text-decoration: underline rgb(34, 34, 34);
+}
+
+.preco1{
+    font-size: 3em;
+    color: rgb(255, 230, 0);
+    font-weight: 1000px;
+    font-family: 'League Spartan', sans-serif;
+    margin-bottom: 0.3em;
+    text-decoration: underline rgb(34, 34, 34);
+
+}

@@ -4,23 +4,24 @@ export default function Rodape() {
     return (
         <footer>
             <div className="infoFooter">
-                <img className="logoFooter" src="iDealLogoTextWhite.png" alt="" />
+                <img className="logoFooter" src="geekoLogoWhite.png" alt="" />
                 <article className="footerText">
-                    <p>© 2023 iDeal - Todos os Direitos Reservados
+                    <p>© 2023 Geek-o - Todos os Direitos Reservados
                         <br />
                         <br />
                         Dúvidas ou sugestões? Entre em contato conosco!
                         <br />
                         <br />
-                        📧 Email: contato@ideal-outlet.com <br />
+                        📧 Email: contato@geek-o.com <br />
                         📞 Telefone: (123) 456-7890
                         <br />
                         <br />
-                        Na iDeal, nossa missão é tornar a experiência Apple mais acessível a todos os amantes de tecnologia. Explore nossas ofertas exclusivas e aproveite as economias hoje mesmo!
+                        Na Geek-o, nossa missão é proporcionar uma experiência geek excepcional a todos os amantes de animes e os universos Marvel e DC. Explore nossos artigos e aproveite o mundo geek conosco!
                         <br />
                         <br />
-                        iDeal - Seu Outlet Favorito da Apple é uma marca registrada da iDeal Tech Inc.
+                        Geek-o - Seu Portal para o Universo Geek é uma marca registrada da Geek-o Inc.
                     </p>
+
                 </article>
             </div>
         </footer>

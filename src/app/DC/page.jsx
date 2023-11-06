@@ -1,4 +1,4 @@
-import './Home.scss'
+import './dc.scss'
 import { Oswald } from "next/font/google"
 const oswald = Oswald({
     subsets: ['latin'],

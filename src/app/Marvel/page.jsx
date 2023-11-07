@@ -75,7 +75,7 @@ export default function Marvel() {
             </section>
 
             <table id="tabela" className={league.className}>
-                <h2 id="subtitulo" className={league.className}>Nosso Estoque</h2>
+                <h2 id="subtitulo" className={league.className}>EM BREVE!</h2>
                 <thead>
                     <tr>
                         <th>Produto</th>

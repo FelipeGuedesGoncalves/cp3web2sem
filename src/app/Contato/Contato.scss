@@ -1,20 +1,124 @@
 #main{
-    height: 90vh;
-    width: 100%;
+  height: fit-content;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 
-.contato-form {
-    width: 70%;
-    margin: 0 auto;
-    background: none;
-  }
+// card redes sociais
+
+.cardRedes{
+  width: 65%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  border-radius: 50px;
+  padding: 50px;
+  margin: 60px;
+
+
   
-  .label,
-  .input,
-  .textarea,
-  .submit-button {
-    border: 1px solid rgb(255, 31, 53);
+  .joker{
+    height: 400px;
+    width: 400px;
+    border-radius: 500px;
+  }
+
+  #linhas{
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    .linha{
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+
+      .icon{
+        width: 45px;
+        height: 45px;
+        border-radius: 500px;
+        box-shadow: 0px 0px 30px 5px rgb(255, 31, 53);
+      }
+
+      h3{
+        width: 100%;
+        color: rgb(255, 31, 53);
+        padding: 30px;
+        font-size: 25px;
+        text-shadow: 0 0 10px rgb(255, 31, 53);
+      }
+
+    }
+  }
+
+  .acesse{
+    font-size: 40px;
     color: rgb(255, 31, 53);
-    background: none;
+    text-shadow: 0 0 10px rgb(255, 31, 53);
+    margin-bottom: 30px;
   }
-  
+
+}
+// OU
+#ou{
+  color:rgb(255, 31, 53);
+  align-items: center;
+  text-align: center;
+  width: 50%;
+  margin: 50px;
+}
+
+
+
+
+
+// forms
+.contato-form {
+  width: 70%;
+
+  label{
+    color: rgb(255, 31, 53);
+    font-size: 20px;
+  }
+
+  h2{
+    color: rgb(255, 31, 53);
+    margin: 20px;
+    margin-left: 0;
+  }
+  .input, .textarea{
+    margin: 20px;
+    margin-left: 0;
+    height: 60px;
+    width: 100%;
+    background-color:rgb(53, 53, 53);
+    border: 2px solid rgb(255, 31, 53);
+  }
+  .textarea{
+    height: 100px;
+  }
+}
+
+.submit-button {
+  border: 2px solid rgb(255, 31, 53);
+  color: rgb(0, 0, 0);
+  font-size: 20px;
+  padding: 10px;
+  background: rgb(255, 31, 53);
+  border-radius: 50px;
+  transition: 0.2s ease;
+  margin: 20px;
+  margin-bottom: 100px;
+  margin-left: 0;
+    &:hover{
+      color: rgb(255, 31, 53);
+      background: transparent;
+      cursor: pointer;
+    }
+
+}

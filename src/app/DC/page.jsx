@@ -9,8 +9,13 @@ const oswald = Oswald({
 export default function Home() {
     return (
         <main id='mainHome'>
+
+            <div className={oswald.className}>
+                <h1 className='titulo'>PRODUTOS DC</h1>
+            </div>
+
             <section className="anuncios">
-            <section className="anuncioh">
+                <section className="anuncioh">
                     <article className="promocao">
                         <div className={oswald.className}>
                             <section className="box">

@@ -20,8 +20,8 @@ li{
 .moldura1{
     height: 60%;
     width: 100%;
-    background-color: rgb(255, 230, 0);
-    box-shadow: inset 0px -50px 50px rgb(255, 174, 0);
+    background-color: rgb(255, 31, 53);
+    box-shadow: inset 0px -50px 50px rgb(255, 31, 117);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -45,17 +45,32 @@ li{
 
 .nomeProduto1{
     font-size: 2.5em;
-    font-family: 'League Spartan', sans-serif;
     margin-bottom: 0.4em;
     text-decoration: underline rgb(34, 34, 34);
 }
 
 .preco1{
-    font-size: 3em;
-    color: rgb(255, 230, 0);
-    font-weight: 1000px;
-    font-family: 'League Spartan', sans-serif;
+    font-size: 3.5em;
+    color: rgb(255, 31, 53);
+    font-weight: 1000;
     margin-bottom: 0.3em;
     text-decoration: underline rgb(34, 34, 34);
 
 }
+
+.oldPrice{
+    letter-spacing: -1px;
+    font-weight: 600;
+    font-size: 1.5em;
+    margin-top: -10px;
+    margin-bottom: 8px;
+    color: rgb(255, 31, 53);
+    text-decoration: 2px line-through;
+}
+
+.titulo{
+    font-size: 30px;
+    color: rgb(255, 31, 53);
+    margin-top: 50px;
+    margin-left: 90px;
+  }

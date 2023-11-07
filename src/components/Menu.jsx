@@ -13,6 +13,7 @@ export default function Menu(){
             <Link href='/' ><img className="logoNav" src="geekoLogo.png" alt="" /></Link>
             <Link href='/' >Página Inicial</Link>
             <Link href='/DC' >DC Comics</Link>
+            <Link href='/Marvel'>Marvel</Link>
             <Link href='/Produtos'>Seção Anime</Link>
             <Link href='/Sobre'>Sobre Nós</Link>
         </nav>

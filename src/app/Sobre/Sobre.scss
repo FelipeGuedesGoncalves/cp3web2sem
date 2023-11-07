@@ -1,0 +1,55 @@
+#mainHome{
+    height: 90vh;
+    width: 100%;
+}
+
+.titulo{
+    font-size: 30px;
+    color: rgb(255, 31, 53);
+    margin-top: 50px;
+    margin-left: 90px;
+}
+
+#Integrantes{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    font-size: 60px;
+}
+
+.pessoa{
+    width: 70%;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    border-radius: 500px;
+    height: 150px;
+    background-color: rgb(15, 15, 15);
+    box-shadow: inset 0px -50px 50px rgb(24, 24, 24);
+    margin-top: 50px;
+}
+
+.profilePic{
+    height: 110px;
+    width: 110px;
+    margin: 20px;
+    margin-right: 0;
+}
+
+.center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.nomeRM{
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+    font-size: 31px;
+    color: rgb(255, 31, 53);
+}

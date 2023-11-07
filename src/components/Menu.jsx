@@ -16,6 +16,7 @@ export default function Menu(){
             <Link href='/Marvel'>Marvel</Link>
             <Link href='/Produtos'>Seção Anime</Link>
             <Link href='/Sobre'>Sobre Nós</Link>
+            <Link href='/Contato'>Contate-nos</Link>
         </nav>
         
     )
